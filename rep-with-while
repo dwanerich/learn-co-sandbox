@@ -1,0 +1,98 @@
+count = 0
+
+while count < 3 do
+puts "I am the #{count}, I love
+to count!"
+  count += 1
+end
+
+puts "*************************
+******************
+
+"
+
+magic_exit_number = 7
+
+count = 0
+while count < 10 do
+break if count ==
+magic_exit_number
+  puts "I am the #{count}, I love
+  to count!"
+    count = count + 1
+end
+
+puts "*************************
+******************
+
+"
+
+magic_exit_number = 7
+count = 0
+while count < 10 && count != magic_exit_number do
+  puts "I am the #{count}, I love to count!"
+    count += 1
+end
+
+
+puts "*************************
+******************
+
+"
+
+
+the_way_out = 3
+
+counter = 0
+while counter < 10 do
+break if counter == the_way_out
+  puts "this #{counter} is fun"
+   counter += 1
+end
+
+puts "*************************
+******************
+
+"
+
+the_way_out = 8
+
+counter = 0
+
+while counter < 10 do
+break if counter == the_way_out || counter == 4
+  puts "ok now #{counter} more to go before the cut???"
+  counter += 1
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

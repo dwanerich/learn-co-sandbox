@@ -1,0 +1,46 @@
+#pets = ['dog', 'cat', 'fish', 'bird']
+#p pets << 'hampster'
+#puts pets[4]
+
+#counter = 0
+pets = ['Dog', 'Cat', 'Fish', 'Bird', 'Hampster']
+
+#while pets[counter] do
+ # puts pets[counter]
+  #  counter += 1
+#end
+
+def output_array_elements(array)
+  counter = 0
+  
+  while array[counter] do
+    puts array[counter]
+    counter += 1
+  end
+end
+
+#puts output_array_elements(pets)
+#puts output_array_elements(['hello', 'how are you?', 'goodbye!'])
+
+seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+# p array.length
+
+def print_out_elements(array)
+
+  counter = 0
+
+  while counter < array.length
+    puts array[counter]
+    counter += 1
+  end
+end
+
+puts print_out_elements(seasons)
+
+
+
+  
+
+
+
+

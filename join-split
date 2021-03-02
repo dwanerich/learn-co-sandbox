@@ -1,0 +1,11 @@
+# p ['This', 'is', 'a', 'test'].join(' ')
+
+# p ['This', 'is', 'a', 'test'].join('_')
+
+# p ['This', 'is', 'a', 'test'].join('*')
+
+# p %w[this is also a test]
+
+# p %w[this is also a test].join(' ').capitalize
+
+# p "When in the course of human events".split(' ')

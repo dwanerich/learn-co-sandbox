@@ -1,0 +1,21 @@
+#number = 5
+
+#number.times do
+#  puts "I pring out #{number}
+#  times"
+#end
+
+
+#8.times do 'dwane'
+ # puts 'yessie'
+#end
+
+
+counter = 0
+array = [1,2,3,4,5]
+
+while array[counter] do
+  puts array[counter]
+    counter +=1
+end
+

@@ -1,0 +1,13 @@
+spice_rack = [
+  ["Mace", "Ginger", "Marojam"],          
+  ["Paprika", "Fajita Mix", "Coriander"], 
+  ["Parsley", "Sage", "Rosemary"]         
+]
+
+spice_rack[0][25] = "Jerk Sauce"
+
+spice_rack[0] = "Hot Sauce", "Chipotle", "Ranch"
+
+spice_rack[0] << "Cayenne"
+
+print spice_rack

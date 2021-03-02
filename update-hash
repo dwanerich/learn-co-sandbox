@@ -1,0 +1,31 @@
+person = {
+  name: "Sam",
+  age: 31
+}
+
+person[:age] = 32
+person[:name] = "Dwane"
+person[:age]
+person[:name]
+person[:hometown]
+person[:hometown] = "Brooklyn, NY"
+p person[:hometown]
+p person
+
+
+shipping_manifest = {
+  "whale bone corset" => 5,
+  "porcelain vase" => 2,
+  "oil painting" => 3,
+  "silverware" => 34,
+  "loom" => 1
+}
+
+shipping_manifest["oil painting"] += 10
+shipping_manifest["top hat"] += 1
+
+if shipping_manifest["top hat"]
+  shipping_manifest["top hat"] += 1
+else
+  puts "Key not found!"
+end

@@ -1,0 +1,55 @@
+def greeting_programmer(name, language)
+  puts "Hello, #{name}. We heard
+  you are a great #{language}
+  programmer."
+end
+
+greeting_programmer("Maria", "Ruby")
+greeting_programmer("Steven", "Elixir")
+
+
+print " 
+
+*****************************************************************
+
+"
+
+def greeting(name = "Steven")
+  puts "Hello, #{name}!"
+end
+
+greeting
+
+print " 
+
+*****************************************************************
+
+"
+def greeting_programmer(name, language = "Python")
+  puts "Hello, #{name}. We heard you are a great #{language}
+  programmer."
+end
+  
+greeting_programmer("Steven", "Ruby")
+greeting_programmer("Maria")
+
+
+puts "*************************
+******************
+
+"
+
+def my_ruby_method
+  local_variable = 'Hello World!'
+  puts local_variable
+end
+my_ruby_method
+
+puts "*************************
+******************
+
+"
+
+
+
+

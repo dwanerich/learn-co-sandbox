@@ -1,0 +1,17 @@
+famous_cats = ['Cheshire Cat', 'Puss in Boots', 'Garfield']
+
+#p famous_cats[0]
+#p famous_cats[2]
+
+#p famous_cats[-3]
+
+#p famous_cats.index('Puss in Boots')
+
+#p famous_cats[-2]
+
+picnic_ingredients = ["wine", "jalapenos", "donkey feed"]
+donkey_feed = picnic_ingredients.pop
+
+
+picnic_ingredients[2] = "Belgian chocolate"
+p picnic_ingredients

@@ -1,0 +1,8 @@
+SHARK_FAMILY = ["Baby Shark", "Mama Shark", "Papa Shark", "Grandma Shark", "Grandpa Shark"]
+ 
+ 
+ TOP_PLAYERS = {
+:Arod => "The Yankees", :MichaelJordan => "The Bulls", :Jayz => "Roc Nation",:MagicJohnson => "The Lakers"
+}
+
+p TOP_PLAYERS[:Arod]

@@ -1,0 +1,46 @@
+new_hash = {
+:created => Time.now,
+:message => "Hello world!"
+}
+
+# p new_hash
+
+second_new_hash = Hash.new
+
+pets = {'cat' => 'maru',
+'dog' => 'pluto'}
+
+meals = {:breakfast =>
+'cereal', :lunch => 'peanut
+butter and jelly sandwich',
+:dinner => 'mushroom risotto'}
+
+# p meals[:dinner]
+
+healthy_things = {1 => 'learn to garden',
+2 => 'plant seeds', 10 => 'eat vegetables'}
+
+# p healthy_things[10]
+
+key = :email
+
+user_info = {:name => 'Ada',
+:email =>
+"ada.lovelace@famous_computer_inventors.com"}
+
+# p user_info[key]
+
+grocery_items = {:apples => 10, :pears => 4, :peaches => 2,
+:plums => 12}
+
+# p grocery_items[:pears]
+
+if grocery_items[:pears]
+  puts "my favorite fruit of them"
+else
+  return "Sorry try again Buddy"
+end
+
+
+
+
